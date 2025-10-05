@@ -38,7 +38,7 @@ const [loading,setLoading]=useState(true)
 
     // console.log(selectedTicket);
     return (
-        <div className='border-2 my-10 bg-gray-50   max-w-[1200px]  mx-auto  '>
+        <div className=' my-10 bg-gray-50   max-w-[1200px]  mx-auto  '>
              <h1 className='text-3xl l font-bold text-gray-700 mt-5 ml-5'>Customer Tickets</h1>
            <div className=' p-5 flex gap-5 flex-col md:flex-row'>
            
@@ -54,13 +54,13 @@ const [loading,setLoading]=useState(true)
             </div>
          
 <div>
-    <h2 className='text-2xl text-gray-500 font-bold mb-2'>Task Status</h2>
+    <h2 className='text-2xl text-gray-500 font-medium mb-5'>Task Status</h2>
     
      {
     selectedTicket.map(sele=><Ticket sele={sele}></Ticket>)
  }
 
-  <h2 className='text-2xl text-gray-500 font-bold mb-2'>Resolved Task </h2>
+  <h2 className='text-2xl text-gray-500 font-medium mb-2 mt-5'>Resolved Task </h2>
 
 
 
