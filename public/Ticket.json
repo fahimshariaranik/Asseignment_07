@@ -1,0 +1,122 @@
+[
+  {
+    "SerialNumber": "#1001",
+    "id": 1,
+    "title": "Login issue- Card Declined",
+    "description": "User cannot log into the portal after password reset.",
+    "customer": "John Doe",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "20/09/25"
+  },
+  {
+    "SerialNumber": "#1002",
+    "id": 2,
+    "title": "Payment not processed",
+    "description": "Customer reports payment stuck at processing state.",
+    "customer": "Jane Smith",
+    "priority": "HIGH",
+    "status": "In Progress",
+    "createdAt": "21/09/25"
+  },
+  {
+    "SerialNumber": "#1003",
+    "id": 3,
+    "title": "Email notification error",
+    "description": "System is not sending confirmation emails.",
+    "customer": "Acme Corp",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "22/09/25"
+  },
+  {
+    "SerialNumber": "#1004",
+    "id": 4,
+    "title": "App crash on iOS",
+    "description": "Mobile app crashes on iOS 17 devices.",
+    "customer": "Michael Lee",
+    "priority": "HIGH",
+    "status": "In Progress",
+    "createdAt": "23/09/25"
+  },
+  {
+    "SerialNumber": "#1005",
+    "id": 5,
+    "title": "Report generation delay",
+    "description": "Analytics reports taking longer than usual to generate.",
+    "customer": "GlobalTech",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "23/09/25"
+  },
+  {
+    "SerialNumber": "#1006",
+    "id": 6,
+    "title": "UI alignment issue",
+    "description": "Dashboard widgets are misaligned in Safari browser.",
+    "customer": "Sarah Johnson",
+    "priority": "LOW",
+    "status": "Resolved",
+    "createdAt": "24/09/25"
+  },
+  {
+    "SerialNumber": "#1007",
+    "id": 7,
+    "title": "API timeout",
+    "description": "External API call fails due to timeout errors.",
+    "customer": "NextGen Systems",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "25/09/25"
+  },
+  {
+    "SerialNumber": "#1008",
+    "id": 8,
+    "title": "Wrong invoice total",
+    "description": "Invoices are showing incorrect tax calculation.",
+    "customer": "Delta Ltd",
+    "priority": "HIGH",
+    "status": "In Progress",
+    "createdAt": "26/09/25"
+  },
+  {
+    "SerialNumber": "#1009",
+    "id": 9,
+    "title": "Password reset email not received",
+    "description": "Customer did not receive password reset email.",
+    "customer": "Olivia Brown",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "26/09/25"
+  },
+  {
+    "SerialNumber": "#1010",
+    "id": 10,
+    "title": "Feature request - Dark mode",
+    "description": "Customer requested dark mode support in the dashboard.",
+    "customer": "David Wilson",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "27/09/25"
+  },
+  {
+    "SerialNumber": "#1011",
+    "id": 11,
+    "title": "Slow page load",
+    "description": "Landing page is loading slowly on 3G networks.",
+    "customer": "BrightSoft",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "28/09/25"
+  },
+  {
+    "SerialNumber": "#1012",
+    "id": 12,
+    "title": "Security vulnerability report",
+    "description": "Customer found a potential XSS vulnerability.",
+    "customer": "CyberSafe Inc",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "29/09/25"
+  }
+]
