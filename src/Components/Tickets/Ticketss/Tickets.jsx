@@ -61,7 +61,7 @@ const [loading,setLoading]=useState(true)
  }
 
   <h2 className='text-2xl text-gray-500 font-medium mb-2 mt-5'>Resolved Task </h2>
-
+ <p  className='text-gray-500 font-medium text-[14px]'>No resolved tasks yet.</p>
 
 
 </div>

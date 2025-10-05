@@ -5,6 +5,7 @@ import Navber from './Components/Tickets/Navber/Navber'
 import Main from './Components/Tickets/Mainpart/Main'
 import Tickets from './Components/Tickets/Ticketss/Tickets'
 import Footer from './Components/Tickets/Footers/Footer'
+import { toast, ToastContainer } from 'react-toastify';
 
 
 const fetchtickets= async()=>{
@@ -26,6 +27,7 @@ function App() {
 
 const handelTickets=(ticket)=>{
   // setSelectedTicket(ticket)
+  toast('✅ Cart clicked successfully! 🚀')
 
   setSelectedTicket(prev=>{
     if(!prev.find(t=>t.id === ticket.id)){
@@ -61,7 +63,7 @@ setSelectedTicket(prev=> prev.filter(t=>t.id !==id))
 
 
 <Footer> </Footer>
-
+<ToastContainer> </ToastContainer>
     </>
   )
 }

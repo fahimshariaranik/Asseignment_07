@@ -1,16 +1,36 @@
-# React + Vite
+1. What is JSX and why is it used ?
+answer :   JSS is a syntax extension for JavaScript that allows you to write HTML like code within subasripped it make building and reading you I components is your and more edible
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. What is the difference between state and props ?
+answer :   * State: components on data, mutable, used for dynamic behaviour
+           *Props: data past from parent to child read only cannot be changed by the child
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3.  What is the use State hook and how does it work ?
+answer :   The usested hook is a react hook that allows you to add a state to functional components with return estate satisfied state who holds the current value and state is a function to update it is also really company.
+
+
+
+
+
+4. How can use your state between components react ?
+answer :  State can be shared by like theme it to a parent using context API or a state management library redux .
+
+
+
+
+
+5. How is event handling done in react ?
+answer :  Inject events are handled using chemicals from light on click and you passed a function reference as the handler .
+
+
+
+
+
+
+
+                     Thanks programming hero  😊 .
